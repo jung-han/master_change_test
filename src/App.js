@@ -10,7 +10,8 @@ class App extends Component {
   grid = createRef();
   gridInst = null;
   console.log("terst");
-  
+  console.log('hmm');
+
   componentDidMount() {
     console.log(this.grid);
 
