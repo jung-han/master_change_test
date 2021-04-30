@@ -9,6 +9,7 @@ import 'tui-date-picker/dist/tui-date-picker.css';
 class App extends Component {
   grid = createRef();
   gridInst = null;
+  console.log("terst");
 
   componentDidMount() {
     console.log(this.grid);
